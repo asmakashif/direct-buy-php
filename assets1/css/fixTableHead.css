@@ -1,0 +1,56 @@
+.fixTableHead 
+{
+	overflow-y: auto;
+	height: 310px;
+}
+
+.fixTableHead thead th {
+	position: sticky;
+	top: 0;
+}
+.fixTableHead tbody td {
+	vertical-align: middle;
+	line-height: 0.2;
+}
+
+.NofixTableHead 
+{
+	overflow-y: auto;
+	height: 310px;
+}
+
+.NofixTableHead thead th {
+	position: sticky;
+	top: 0;
+}
+
+[dir=ltr] .NofixTableHead tbody td, [dir=ltr] .NofixTableHead thead th {
+    vertical-align: middle;
+     line-height: 0.2; 
+}
+
+table {
+	border-collapse: collapse;    
+	width: 100%;
+}
+th,td {
+	/*padding: 8px 15px;*/
+	/*	border: 2px solid #529432;*/
+	border: 2px solid #529432;
+	border-top-width: 0;
+    border-left-width: 0;
+    height: 22px;
+    empty-cells: show;
+    line-height: 21px;
+    padding: 0 4px;
+    background-color: #fff;
+    vertical-align: top;
+    overflow: hidden;
+    outline-width: 0;
+    /*white-space: pre-wrap;*/
+  /*  border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
+}
+th {
+	background: #ABDD93;
+}

@@ -1,0 +1,39 @@
+       .printableArea
+        {
+            display: block;
+            margin-bottom:0px;
+        }
+        .printableArea>.bill img{
+            margin-left: 20px;
+            width: 200px;
+
+            height: 110px;
+        }
+        #printButton{
+            background-color: #4CAF50; /* Green */
+            border-radius: 10px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+      @media print{
+          
+            @page {
+                size:85mm 197mm;
+               
+            }
+            @page :left {
+                margin-left:0cm;
+            }
+             @page :top {
+                margin-top:0cm;
+            }
+            
+           
+        }
+       
+         
+    
